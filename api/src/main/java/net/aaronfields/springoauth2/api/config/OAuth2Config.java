@@ -50,7 +50,7 @@ public class OAuth2Config {
 	
 	@Configuration
 	@EnableResourceServer
-	protected static class ResourceServiceConfig extends ResourceServerConfigurerAdapter {
+	protected static class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 		
 		@Override
 		public void configure(HttpSecurity http) throws Exception {
